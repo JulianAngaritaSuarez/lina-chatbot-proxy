@@ -61,7 +61,7 @@ setInterval(() => {
 }, 300000);
 
 /* ── Modelo de Gemini a usar ── */
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-3.1-flash-lite';
 
 /* ── Endpoint principal ── */
 app.post('/chat', rateLimit, async (req, res) => {
